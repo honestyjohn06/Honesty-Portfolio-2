@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" media="only screen and (min-width:961px)">
+    <link rel="stylesheet" href="tablet.css" media="only screen and (min-width:481px) and (max-width:960px)">
+    <link rel="stylesheet" href="phone.css" media="only screen and (max-width:480px)">
+    <link rel="stylesheet" href='/bootstrap/dist/css/bootstrap.min.css'>
+    <link rel="stylesheet" href='/@fortawesome/fontawesome-free/css/all.min.css'>
+    <script src="/jquery/dist/jquery.min.js"></script>
+    <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/Content/style.css">
+</head>
+
+<body>
+    <%- include('navbar') %>
+    <div id="wrapper">
+        <div class="left-column">
+            <h2 class="skills-title">Skills at a Glance</h2>
+
+            <div class="icon-container">
+
+                <div class="light-icons">
+                    <img src="/Asset/images/skills-icons/programming-icon.svg" alt="Programming" class="skill-icons">Programming
+                </div>
+
+                <div class="dark-icons">
+                    <img src="/Asset/images/skills-icons/network-icon.svg" alt="Network Configuration" class="skill-icons">Network
+                    Configuration
+                </div>
+                <div class="light-icons">
+                    <img src="/Asset/images/skills-icons/machine-icon.svg" alt="Machine Learning" class="skill-icons">Machine Learning
+                </div>
+                <div class="dark-icons">
+                    <img src="/Asset/images/skills-icons/communication-icon.svg" alt="Communication" class="skill-icons">
+                    Communication
+                </div>
+                <div class="light-icons">
+                    <img src="/Asset/images/skills-icons/security-icon.svg" alt="Security" class="skill-icons"> Security
+                </div>
+                <div class="dark-icons">
+                    <img src="/Asset/images/skills-icons/data-icon.svg" alt="Data Management" class="skill-icons"> Data Analysis
+                </div>
+                <div class="light-icons">
+                    <img src="/Asset/images/skills-icons/management-icon.svg" alt="Project Management" class="skill-icons"> Project
+                    Management
+                </div>
+                <div class="dark-icons">
+                    <img src="/Asset/images/skills-icons/problemsolve-icon.svg" alt="Problem Solving" class="skill-icons">Problem
+                    Solving
+                </div>
+                <div class="light-icons">
+                    <img src="/Asset/images/skills-icons/htmlcss-icon.svg" alt="HTML/CSS" class="skill-icons"> HTML/CSS
+                </div>
+                <div class="right-column">
+                    <video controls width="320" height="240" poster="/Asset/images/aboutme-poster.png" preload="auto">
+                        <source src="/Asset/Videos/Aboutme-video.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

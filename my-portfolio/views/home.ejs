@@ -1,11 +1,54 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='/bootstrap/dist/css/bootstrap.min.css'>
+    <link rel="stylesheet" href='/@fortawesome/fontawesome-free/css/all.min.css'>
+    <script src="/jquery/dist/jquery.min.js"></script>
+    <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/Content/style.css">
+
+</head>
+<html lang="en">
+
+<body>
+    <%- include('navbar') %>
+
+        <div id="wrapper">
+            <header>
+                <div class="left-column">
+                    <h1>Hi, I am Honesty Johnson</h1>
+                    <p>I am currently a second-year Networking and IT student at Ontario Tech University.
+                        I have an interest in technologies, computer systems, and programming.
+                        I enjoy diving into how networks, hardware, and software come together to solve
+                        practical challenges. I am developing skills in Python, network configuration and
+                        troubleshooting, as well as HTML/CSS. I would love to do some hands-on projects,
+                        internships, or collaborations that could continue to nurture my growth as an IT professional.
+                    </p>
+
+                    <div id="contact">
+                        <a href="/contact" class="lets-talk-btn">Let's Talk</a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/honesty-j-89b70a272" target="_blank">
+                            <img src="/Asset/images/linkedin.svg" alt="LinkedIn" class="linkedin-icon">
+                        </a>
+                        <a href="https://github.com/honestyjohn06" target="_blank">
+                            <img src="/Asset/images/github.svg" alt="GitHub" class="github-icon">
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="right-column">
+                    <img src="/Asset/images/gradpic.jpg" alt="graduation picture">
+                </div>
+            </header>
+        </div>
+</body>
+
 </html>

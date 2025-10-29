@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" media="only screen and (min-width:961px)">
+    <link rel="stylesheet" href="tablet.css" media="only screen and (min-width:481px) and (max-width:960px)">
+    <link rel="stylesheet" href="phone.css" media="only screen and (max-width:480px)">
+    <link rel="stylesheet" href='/bootstrap/dist/css/bootstrap.min.css'>
+    <link rel="stylesheet" href='/@fortawesome/fontawesome-free/css/all.min.css'>
+    <script src="/jquery/dist/jquery.min.js"></script>
+    <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/Content/style.css">
+</head>
+
+<body>
+    <%- include('navbar') %>
+
+    <div id="wrapper">
+        
+        <h6>CONTACT ME</h6>
+        
+        <div class="form">
+            <form action="mailto:honesty.johnson@ontariotechu.net?subject=Contact-Form" enctype="text/plain" method="post" name="Form">
+                <p>
+                    <label for="name"> Full name :</label>
+                    <input type="text" id="name" name="name" size="40" placeholder="Enter your full name" required>
+                </p>
+                <p>
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" size="40" placeholder="Enter your email address" required>
+                </p>
+                <p>
+                    <label for="number">Phone Number(optional) :</label>
+                    <input type="tel" id="number" name="number" placeholder="Enter your phone number" size="40">
+                </p>
+                <p>
+                    <label for="message">Message :</label>
+                    <textarea name="message" id="message" cols="50" rows="8" placeholder="Enter your message" required></textarea>
+                </p>
+                <br>
+                <input type="reset" value="reset">
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
