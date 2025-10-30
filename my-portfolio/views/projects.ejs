@@ -1,91 +1,65 @@
-<!DOCTYPE HTML>
-<html lang="en">
+<div id="wrapper">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href='/bootstrap/dist/css/bootstrap.min.css'>
-    <link rel="stylesheet" href='/@fortawesome/fontawesome-free/css/all.min.css'>
-    <script src="/jquery/dist/jquery.min.js"></script>
-    <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="/Content/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" media="only screen and (min-width:961px)">
-    <link rel="stylesheet" href="tablet.css" media="only screen and (min-width:481px) and (max-width:960px)">
-    <link rel="stylesheet" href="phone.css" media="only screen and (max-width:480px)">
-</head>
+    <div class="left-column">
+        <h3>PROJECTS</h3>
 
-<body>
-    <%- include('navbar') %>
-        
-    <div id="wrapper">
+        <article class="left-projects">
+            <section>
+                <h4>Car Rental Management System</h4>
+                <p>
+                    Created an application in Python to handle car rentals.<br>
+                    It includes features for adding cars, renting, returning, handling customers, and generating
+                    invoices with discounts.
+                </p>
+            </section>
+        </article>
 
-            <div class="left-column">
-                <h3>PROJECTS</h3>
+        <article class="left-projects">
+            <section>
+                <h4>Student Management System</h4>
+                <p>
+                    Created an application in Python to manage students.<br>
+                    It includes features that store student records, calculate grades, and generate academic
+                    reports
+                    efficiently.
+                </p>
+            </section>
+        </article>
 
-                <article class="left-projects">
-                    <section>
-                        <h4>Car Rental Management System</h4>
-                        <p>
-                            Created an application in Python to handle car rentals.<br>
-                            It includes features for adding cars, renting, returning, handling customers, and generating
-                            invoices with discounts.
-                        </p>
-                    </section>
-                </article>
+        <article class="left-projects">
+            <section>
+                <h4>Subnetting and Network Configuration</h4>
+                <p>
+                    Created and set up a network topology using IP addressing, VLANs, and routing to transmit
+                    packets.<br>
+                    Application of subnetting, DHCP, and static routing to optimize network performance.
+                </p>
+            </section>
+        </article>
+    </div>
 
-                <article class="left-projects">
-                    <section>
-                        <h4>Student Management System</h4>
-                        <p>
-                            Created an application in Python to manage students.<br>
-                            It includes features that store student records, calculate grades, and generate academic
-                            reports
-                            efficiently.
-                        </p>
-                    </section>
-                </article>
+    <div class="right-column">
+        <article class="right-projects">
+            <section>
+                <h5>Ontario Tech University Network Design</h5>
+                <p>
+                    Built a network connecting two campuses using BGP, WAN, and internet links.<br>
+                    Focused on creating a reliable, scalable, and easy-to-manage network.
+                </p>
+            </section>
+        </article>
 
-                <article class="left-projects">
-                    <section>
-                        <h4>Subnetting and Network Configuration</h4>
-                        <p>
-                            Created and set up a network topology using IP addressing, VLANs, and routing to transmit
-                            packets.<br>
-                            Application of subnetting, DHCP, and static routing to optimize network performance.
-                        </p>
-                    </section>
-                </article>
-            </div>
-
-            <div class="right-column">
-                <article class="right-projects">
-                    <section>
-                        <h5>Ontario Tech University Network Design</h5>
-                        <p>
-                            Built a network connecting two campuses using BGP, WAN, and internet links.<br>
-                            Focused on creating a reliable, scalable, and easy-to-manage network.
-                        </p>
-                    </section>
-                </article>
-
-                <article class="right-projects">
-                    <section>
-                        <h5>Impact of AI on Student Learning (Research Project)</h5>
-                        <p>
-                            A study where we examined the effects of artificial intelligence tools on students learning
-                            techniques and academic results.
-                        </p>
-                    </section>
-                </article>
-            </div>
-        </div>
+        <article class="right-projects">
+            <section>
+                <h5>Impact of AI on Student Learning (Research Project)</h5>
+                <p>
+                    A study where we examined the effects of artificial intelligence tools on students learning
+                    techniques and academic results.
+                </p>
+            </section>
+        </article>
+    </div>
+</div>
 </body>
 
 </html>
